@@ -1,0 +1,126 @@
+# CNN Flood Susceptibility Project - Git Ignore Rules
+# ====================================================
+
+# Python Environment
+# ------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+# --------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# IDE and Editor Files
+# -------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+# -----------------
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python Caching and Logs
+# -----------------------
+*.log
+*.out
+*.err
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# TensorFlow and GPU
+# -----------------
+events.out.tfevents.*
+*.ckpt
+*.ckpt.meta
+*.ckpt.index
+*.ckpt.data*
+.tensorboard/
+
+# Temporary Processing Files
+# -------------------------
+*.tmp
+*.temp
+temp/
+tmp/
+.tmp/
+processing_*
+intermediate_*
+
+# System and Backup Files
+# -----------------------
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+*.bak
+*.orig
+*.save
+*~
+
+# Project-Specific Ignores
+# ------------------------
+# Verification scripts (temporary)
+verify_*.py
+test_*.py
+debug_*.py
+
+# GPU monitoring files
+gpu_monitoring.txt
+training_log.txt
+
+# Status files  
+*_COMPLETE.md
+*_STATUS.md
+*_FIXED.md
+
+# Cleanup patterns
+cleanup_*
+remove_*
+
+# Downloaded packages
+*.tar.gz
+*.zip
+git-lfs-*

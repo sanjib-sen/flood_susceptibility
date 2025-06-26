@@ -1,0 +1,66 @@
+# Git LFS Configuration for CNN Flood Susceptibility Project
+# ==================================================================
+
+# Core Project Files
+# ------------------
+# PDF documents and research papers
+*.pdf filter=lfs diff=lfs merge=lfs -text
+docs/papers/*.pdf filter=lfs diff=lfs merge=lfs -text
+
+# Raw GIS Data (Input Rasters)
+# ----------------------------
+data/raw/** filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.tif filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.shp filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.dbf filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.shx filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.prj filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.cpg filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.sbn filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.sbx filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.tfw filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.ovr filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.xml filter=lfs diff=lfs merge=lfs -text
+data/raw/Tahirpur/*.aux.xml filter=lfs diff=lfs merge=lfs -text
+
+# Processed Data Arrays
+# --------------------
+data/processed/*.npy filter=lfs diff=lfs merge=lfs -text
+data/processed/*.npz filter=lfs diff=lfs merge=lfs -text
+data/processed/*.hdf5 filter=lfs diff=lfs merge=lfs -text
+
+# CNN Models and Checkpoints
+# --------------------------
+models/trained/*.h5 filter=lfs diff=lfs merge=lfs -text
+models/trained/*.pkl filter=lfs diff=lfs merge=lfs -text
+models/trained/*.joblib filter=lfs diff=lfs merge=lfs -text
+models/checkpoints/*.h5 filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+
+# Final Output Maps and Visualizations
+# ------------------------------------
+outputs/maps/*.tif filter=lfs diff=lfs merge=lfs -text
+outputs/maps/*.png filter=lfs diff=lfs merge=lfs -text
+outputs/figures/*.png filter=lfs diff=lfs merge=lfs -text
+outputs/figures/*.jpg filter=lfs diff=lfs merge=lfs -text
+outputs/figures/*.jpeg filter=lfs diff=lfs merge=lfs -text
+
+# Media Files
+# -----------
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+
+# External Data and Archives
+# --------------------------
+data/external/** filter=lfs diff=lfs merge=lfs -text
+
+# Legacy Patterns (Backward Compatibility)
+# ----------------------------------------
+claude-ignore-these-files/* filter=lfs diff=lfs merge=lfs -text
+claude-ignore-these-files/** filter=lfs diff=lfs merge=lfs -text
+data/processed/harmonized/** filter=lfs diff=lfs merge=lfs -text
+data/processed/harmonized_full/** filter=lfs diff=lfs merge=lfs -text
+data/processed/harmonized_full/*.tif filter=lfs diff=lfs merge=lfs -text

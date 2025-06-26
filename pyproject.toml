@@ -1,0 +1,15 @@
+[project]
+name = "flood-susceptibility-cnn"
+version = "0.1.0"
+description = "CNN-based Flood Susceptibility Mapping for Tahirpur, Bangladesh"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "numpy>=1.26.0,<2.0.0",
+    "pandas>=2.3.0",
+    "rasterio>=1.4.3",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+    "tensorflow[and-cuda]>=2.17.0",
+]

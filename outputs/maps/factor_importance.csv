@@ -1,0 +1,9 @@
+Factor,Importance,Rank
+Elevation.tif,0.22360662,1
+NDWI_Taherpur_2025.tif,0.18835512,2
+Slope.tif,0.16065146,3
+Distance_from_Waterbody.tif,0.14973608,4
+NDVI_Taherpur_2025.tif,0.13168456,5
+NDBI_Taherpur_2025.tif,0.052182563,6
+Rainfall.tif,0.048066378,7
+Drainage_density.tif,0.045717217,8

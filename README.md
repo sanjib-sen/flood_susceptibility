@@ -1,6 +1,6 @@
 ## 🌊 Project Overview
 
-This project uses a Deep Learning approach (Convolutional Neural Networks - CNN) to create high-resolution flood risk maps for Tahirpur, Bangladesh. The project is **COMPLETED** and the CNN model achieved 99.9% AUC performance.
+This project uses a Deep Learning approach (Convolutional Neural Networks - CNN) to create high-resolution flood risk maps for Tahirpur, Bangladesh.
 
 ## 🚀 Quick Start
 

@@ -53,6 +53,10 @@ python src/cnn_flood_susceptibility.py
 
 This will take about 1-2 minutes with a compatible GPU.
 
+## 🌎 Output Map
+
+![flood risk map for Tahirpur, Bangladesh](outputs/maps/flood_susceptibility_visualization.png "flood risk map for Tahirpur, Bangladesh")
+
 ## 📊 Model Results
 
 The CNN model achieved a **99.09% AUC performance**.
